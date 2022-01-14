@@ -1,0 +1,194 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.about-dev{
+    width: 50%;
+    margin-top: 120px;
+}
+.header{
+    line-height: 60px;
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    margin-bottom: 25px;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+h2{
+    font-size: 40px;
+    margin: 0;
+}
+h3{
+    font-size: 22px;
+}
+.about-header{
+    color: #333333;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 120px;
+}
+.aiam-container{
+    display: flex;
+}
+.details-info{
+    width: 60%;
+}
+.image-section{
+    width: 40%;
+}
+.image-section img{
+    width: 85%;
+}
+.devloper-image{
+    width: 70%;
+    text-align: center;
+}
+.devloper-image img{
+    width: 63%;
+}
+.position{
+    text-align: end;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.aiam-area{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 120px;
+}
+.aiam-area h2{
+    text-align: center;
+    margin-bottom:60px;
+    color: #13103A;
+}
+
+.aiam-item{
+    width: 33.3%;
+    border-radius: 20px;
+    padding: 1% 2%;
+}
+.aiam-item img{
+    width: 50%;
+    height: 150px;
+}
+#mission-item{
+    background-color: #EDF5F6;
+}
+#vission-item{
+    margin-left: 2%;
+    background-color: #FFEEEE;
+}
+#goals-item{
+    margin-left: 2%;
+    background-color: #FFF4D6;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #13103A;
+    padding: 20px 40px;
+}
+.color{
+    color: tomato;
+}
+
+.skill-area{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.skill-section{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 60px;
+    color: tomato;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.skills-container{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+}
+
+.skill-card{
+    position: relative;
+}
+
+.skill-img{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+
+.skill-name{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+
+.skill-info{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.skill-level{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    border: 10px solid;
+}
+
+.skill-card:nth-child(1) .skill-level{
+    background: #ff4f4f28;
+    border-color: #ff4f4f;
+    color: #ff4f4f;
+}
+
+.skill-card:nth-child(2) .skill-level{
+    background: #4fa0ff28;
+    border-color: #4fa0ff;
+    color: #4fa0ff;
+}
+
+.skill-card:nth-child(3) .skill-level{
+    background: #ffed4f28;
+    border-color: #ffed4f;
+    color: #ffed4f;
+}
